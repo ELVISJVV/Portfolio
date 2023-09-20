@@ -51,6 +51,21 @@
     transform: scale(0.5);
 }
 
+.i-icons>*:hover {
+    cursor: pointer;
+}
+
 .i-right{
     flex: 1;
+    position: relative;
+}
+
+.i-right>*{
+    position: absolute;
+    z-index: 1;
+}
+
+.i-right>:nth-child(1){
+  transform: scale(0.69);
+  left: -15%;
 }
