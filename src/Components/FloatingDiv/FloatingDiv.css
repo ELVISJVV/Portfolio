@@ -1,0 +1,33 @@
+.floatingdiv{
+    justify-content: space-around;
+    display: flex;
+    background: white;
+    box-shadow: var(--boxShadow);
+    border-radius: 17px;
+    align-items: center;
+    padding: 0px 28px 0px 0px;
+    height: 4.5rem;
+}
+
+.floatingdiv>img{
+    transform: scale(0.5);
+}
+
+.floatingdiv>span{
+    font-family: sans-serif;
+    font-size: 16px;
+}
+
+.blur{
+    position: absolute;
+    width: 22rem;
+    height: 14 rem;
+    border-radius: 50%;
+    background: #edd0ff;
+    filter: blur();
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    -webkit-filter: blur();
+}
