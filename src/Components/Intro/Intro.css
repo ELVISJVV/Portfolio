@@ -90,3 +90,15 @@
     border-radius: 50%;
     padding: 0;
 }
+
+.blur {
+    position: absolute;
+    width: 22rem;
+    height: 14 rem;
+    border-radius: 50%;
+    background: #edd0ff;
+    z-index: -9;
+    top: -18%;
+    left: 56%;
+    filter: blur(72px);
+}

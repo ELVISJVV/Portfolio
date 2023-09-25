@@ -18,16 +18,3 @@
     font-size: 16px;
 }
 
-.blur{
-    position: absolute;
-    width: 22rem;
-    height: 14 rem;
-    border-radius: 50%;
-    background: #edd0ff;
-    filter: blur();
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    -o-border-radius: 50%;
-    -webkit-filter: blur();
-}
