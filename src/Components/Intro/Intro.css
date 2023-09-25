@@ -1,10 +1,10 @@
-.intro{
+.intro {
     display: flex;
     height: 77vh;
     margin-top: 6rem;
 }
 
-.i-left{
+.i-left {
     display: flex;
     position: relative;
     flex: 1;
@@ -12,7 +12,7 @@
     gap: 2rem;
 }
 
-.i-name{
+.i-name {
     display: flex;
     flex-direction: column;
 }
@@ -36,18 +36,18 @@
     margin-top: 10px;
 }
 
-.i-button{
+.i-button {
     width: 6rem;
     height: 2rem;
 }
 
-.i-icons{
+.i-icons {
     margin-top: 3rem;
     display: flex;
     gap: 0rem;
 }
 
-.i-icons>*{
+.i-icons>* {
     transform: scale(0.5);
 }
 
@@ -55,20 +55,20 @@
     cursor: pointer;
 }
 
-.i-right{
+.i-right {
     flex: 1;
     position: relative;
 }
 
-.i-right>*{
+.i-right>* {
     position: absolute;
     z-index: 1;
 }
 
-.i-right>:nth-child(1){
-  transform: scale(0.69);
-  left: -15%;
-  top: -9%;
+.i-right>:nth-child(1) {
+    transform: scale(0.69);
+    left: -15%;
+    top: -9%;
 }
 
 .i-right>:nth-child(2) {
@@ -80,7 +80,7 @@
 .i-right>:nth-child(3) {
     transform: scale(1.4);
     left: 28%;
-    
+
 }
 
 .i-right>:nth-child(4) {
@@ -94,7 +94,7 @@
 .blur {
     position: absolute;
     width: 22rem;
-    height: 14 rem;
+    height: 14rem;
     border-radius: 50%;
     background: #edd0ff;
     z-index: -9;

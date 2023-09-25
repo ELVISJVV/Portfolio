@@ -28,7 +28,7 @@
 }
 
 
-.button:hover{
+.button:hover {
   background: white;
   cursor: pointer;
   color: var(--orange);
