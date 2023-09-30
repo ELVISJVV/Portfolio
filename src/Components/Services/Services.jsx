@@ -16,19 +16,22 @@ const Services = () => {
                     <br />
                     quisquam saepe in ab vi. Reiciendis saepe mollitia illum quidem hic!
                 </span>
-                <button className="button s-button">Download CV</button>
-                <div className="blur s-blur" style={{ background: "#abf1ff94" }}></div>
+
+                <a href="" download>
+                    <button className="button s-button">Download CV</button>
+                </a>
+                <div className="blur s-blur1" style={{ background: "#abf1ff94" }}></div>
             </div>
 
             <div className="cards">
-                <div style={{left:'14rem'}}>
+                <div style={{ left: '14rem' }}>
                     <Card
-                    emoji ={HeartEmoji}
-                    heading = {'Design'}
-                    detail = {"Figma, Sketch, Photoshpo,Adobe, Adobe xd "} ></Card>
+                        emoji={HeartEmoji}
+                        heading={'Design'}
+                        detail={"Figma, Sketch, Photoshpo,Adobe, Adobe xd "} ></Card>
                 </div>
 
-                <div style={{ top: '12rem' ,left: '-4rem' }}>
+                <div style={{ top: '12rem', left: '-4rem' }}>
                     <Card
                         emoji={Glasses}
                         heading={'Developer'}
@@ -41,6 +44,7 @@ const Services = () => {
                         heading={'UI/UX'}
                         detail={"loerem adadadaekdakd "} ></Card>
                 </div>
+                <div className="blur s-blur2" style={{background: "var(--purple)"}}></div>
             </div>
         </div>
     )
