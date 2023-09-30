@@ -34,6 +34,13 @@ const Services = () => {
                         heading={'Developer'}
                         detail={"HTML, CSS, JavaScriot, React "} ></Card>
                 </div>
+
+                <div style={{ top: '19rem', left: '12rem' }}>
+                    <Card
+                        emoji={Humble}
+                        heading={'UI/UX'}
+                        detail={"loerem adadadaekdakd "} ></Card>
+                </div>
             </div>
         </div>
     )
