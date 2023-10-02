@@ -1,6 +1,22 @@
-import React from 'react'
+import React, { useRef } from 'react';
+import emailjs from '@emailjs/browser';
 import './Contact.css'
+const { VITE_SERVICE_ID, VITE_PUBLIC_KEY, VITE_TEMPLATE_ID } = import.meta.env;
+
 const Contact = () => {
+    const form = useRef();
+
+    const sendEmail = (e) => {
+        e.preventDefault();
+        
+
+        emailjs.sendForm(VITE_SERVICE_ID, VITE_TEMPLATE_ID, form.current, VITE_PUBLIC_KEY)
+            .then((result) => {
+                console.log(result.text);
+            }, (error) => {
+                console.log(error.text);
+            });
+    };
     return (
         <div className="contact-form">
             <div className="w-left">
@@ -12,7 +28,7 @@ const Contact = () => {
             </div>
 
             <div className="c-right">
-                <form>
+                <form ref={form} onSubmit={sendEmail}>
                     <input type="text"
                         name="user_name"
                         className='user'
@@ -23,7 +39,7 @@ const Contact = () => {
                         className='user'
                         placeholder='Email' />
 
-                    <input
+                    <textarea
                         name="message"
                         className='user'
                         placeholder='Message' />
