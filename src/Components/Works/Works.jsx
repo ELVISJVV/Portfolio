@@ -41,10 +41,14 @@ const Works = () => {
                     <div className="w-secCircle">
                         <img src={Shopify} alt="" />
                     </div>
+                    <div className="w-secCircle">
+                        <img src={Facebook} alt="" />
+                    </div>
                 </div>
                 {/* background Circles */}
                 <div className="w-backCircle blueCircle"></div>
                 <div className="w-backCircle yellowCircle"></div>
+                
             </div>
         </div>
     )
