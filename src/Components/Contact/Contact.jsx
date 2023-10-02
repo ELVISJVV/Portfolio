@@ -1,10 +1,12 @@
-import React, { useRef } from 'react';
+import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
 import './Contact.css'
 const { VITE_SERVICE_ID, VITE_PUBLIC_KEY, VITE_TEMPLATE_ID } = import.meta.env;
 
 const Contact = () => {
     const form = useRef();
+
+    const [done, setDone] = useState(false);
 
     const sendEmail = (e) => {
         e.preventDefault();
@@ -13,6 +15,7 @@ const Contact = () => {
         emailjs.sendForm(VITE_SERVICE_ID, VITE_TEMPLATE_ID, form.current, VITE_PUBLIC_KEY)
             .then((result) => {
                 console.log(result.text);
+                setDone(true);
             }, (error) => {
                 console.log(error.text);
             });
@@ -45,6 +48,10 @@ const Contact = () => {
                         placeholder='Message' />
 
                     <input type="submit" value="Send" className='button' />
+                    <span>
+
+                    {done && "Thanks for contacting me"}
+                    </span>
                     <div className="blur c-blur1" style={{ background: "var(--purple)" }}></div>
                 </form>
             </div>
