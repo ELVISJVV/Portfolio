@@ -53,7 +53,7 @@ const Services = () => {
                     <Card
                         emoji={Glasses}
                         heading={'Developer'}
-                        detail={"HTML, CSS, JavaScriot, React "} ></Card>
+                        detail={"HTML, CSS, JavaScriot, React fffffffffff"} ></Card>
                 </motion.div>
 
                 <motion.div
@@ -64,7 +64,7 @@ const Services = () => {
                     <Card
                         emoji={Humble}
                         heading={'UI/UX'}
-                        detail={"loerem adadadaekdakd "} ></Card>
+                        detail={"loerem adadadaekdakvvvvvvvvggggggfd "} ></Card>
                 </motion.div>
                 <div className="blur s-blur2" style={{ background: "var(--purple)" }}></div>
             </div>
