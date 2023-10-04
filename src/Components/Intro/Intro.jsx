@@ -26,14 +26,13 @@ const Intro = () => {
                     <span>Elvis Vásquez</span>
                     <span>Full Stack Developer with high level of experience in web designing and development, producting the Quality work</span>
                 </div>
-                <button className="button i-button">Hire me</button>
+                {/* <button className="button i-button">Hire me</button> */}
                 <div className="i-icons">
-                    <a href="">
+                    <a href="https://github.com/ELVISJVV" target='_blank'>
 
                         <img src={Github} alt="" />
                     </a>
-                    <a href="">
-
+                    <a href="https://www.linkedin.com/in/elvis-vásquez-ab9277264" target='_blank'>
                         <img src={LinkedIn} alt="" />
                     </a>
                     {/* <a href="">
@@ -58,7 +57,7 @@ const Intro = () => {
                     transition={transition}
                     style={{ top: '-4%', left: '68%' }}
                     className='floating-div'>
-                    <FloatingDiv image={Crown} txt1='Web' txt2='Developer' />
+                    <FloatingDiv image={Crown} txt1='Full Stack' txt2=' Developer' />
                 </motion.div>
 
                 <motion.div
@@ -67,7 +66,7 @@ const Intro = () => {
                     transition={transition}
                     style={{ top: '18rem', left: '0rem' }}
                     className='floating-div'>
-                    <FloatingDiv image={Thumbup} txt1='Best Design' txt2='Award' />
+                    <FloatingDiv image={Thumbup} txt1='Solutions ' txt2='Expert' />
                 </motion.div>
 
                 {/* {blur divs} */}
