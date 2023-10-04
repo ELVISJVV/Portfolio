@@ -24,7 +24,7 @@ const Intro = () => {
                 <div className="i-name">
                     <span style={{ color: darkMode ? 'white' : '' }}>Hy! I am </span>
                     <span>Elvis Vásquez</span>
-                    <span>Full Stack Developer with high level of experience in web designing and development, producting the Quality work</span>
+                    <span>Full Stack Developer with a track record in diverse projects, including E-commerce. Currently in the sixth semester of a Computer Science and Systems Engineering program. Committed to continuous learning, integrating academic knowledge with practical expertise. Enthusiastic about achieving technical excellence and driving innovation in dynamic development environments.</span>
                 </div>
                 {/* <button className="button i-button">Hire me</button> */}
                 <div className="i-icons">
