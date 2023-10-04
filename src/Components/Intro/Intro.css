@@ -42,7 +42,7 @@
 }
 
 .i-icons {
-    margin-top: 3rem;
+    margin-top: 0.8rem;
     display: flex;
     gap: 0rem;
 }
@@ -78,8 +78,12 @@
 }
 
 .i-right>:nth-child(3) {
-    transform: scale(1.4);
-    left: 28%;
+    transform: scale(1);
+    left: 8%;
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
 
 }
 
@@ -116,7 +120,7 @@
 
     }
 
-    .i-right .blur{
+    .i-right .blur {
         display: none;
     }
 

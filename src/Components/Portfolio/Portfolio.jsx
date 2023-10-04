@@ -6,6 +6,7 @@ import Ecommerce from "../../img/ecommerce.png"
 import HOC from "../../img/hoc.png"
 import MusicApp from "../../img/musicapp.png"
 import 'swiper/css'
+import Dlujo from "../../img/dlujo.png"
 import { themeContext } from '../../Context'
 import { useContext } from 'react'
 
@@ -26,15 +27,21 @@ const Portfolio = () => {
                 grabCursor={true}
                 className='portfolio-slider'>
                 <SwiperSlide>
+                    <span>Probando</span>
                     <img src={Sidebar} alt="" />
                 </SwiperSlide>
                 <SwiperSlide>
+                <span>Probando</span>
                     <img src={Ecommerce} alt="" />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img src={MusicApp} alt="" />
+                    <span>Probando</span>
+                    <img src={Dlujo} alt="" />
+                    <a href="https://dlujo-app.netlify.app
+                    " target='blank'>Deployment</a>
                 </SwiperSlide>
                 <SwiperSlide>
+                    <span>Probando</span>
                     <img src={HOC} alt="" />
                 </SwiperSlide>
             </Swiper>

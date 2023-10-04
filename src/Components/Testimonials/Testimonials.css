@@ -52,10 +52,6 @@
     width: 6rem;
     height: 6rem;
     border-radius: 100%;
-    -webkit-border-radius: 100;
-    -moz-border-radius: 100;
-    -ms-border-radius: 100;
-    -o-border-radius: 100;
 
 }
 
@@ -75,15 +71,21 @@
     justify-content: center;
 }
 
+.t-wrapper .swiper-pagination-bullet {
+    background: red;
+}
+
 .t-wrapper .swiper-pagination-bullet-active {
     background: var(--orange);
 }
 
+
 @media screen and (max-width: 480px) {
-    .t-wrapper{
+    .t-wrapper {
         padding: 0;
     }
-    .testimonial>img{
+
+    .testimonial>img {
         width: 70px;
         height: 70px;
     }
