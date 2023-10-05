@@ -2,7 +2,7 @@ import React from 'react'
 import './Portfolio.css'
 import { Swiper, SwiperSlide } from 'swiper/react'
 import Rickadnmorty from "../../img/rickadnmorty.png"
-import Ecommerce from "../../img/ecommerce.png"
+
 import Videogames from "../../img/videogames.png"
 import Biblioteca from "../../img/biblioteca.png"
 import 'swiper/css'
@@ -15,7 +15,7 @@ const Portfolio = () => {
     const darkMode = theme.state.darkMode;
     const projects = [{
         id: 1,
-        title: "E-commerce Dlujo",
+        title: "E-commerce D`lujo",
         img: Dlujo,
         link: "https://dlujo-app.netlify.app",
     },

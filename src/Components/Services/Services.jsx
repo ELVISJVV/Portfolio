@@ -20,9 +20,9 @@ const Services = () => {
             <div className="awesome">
                 <span style={{ color: darkMode ? 'white' : '' }} >My Awesome</span>
                 <span>services</span>
-                <span>Lorem ipsum dolor sit amet consectetug elit. Quo est a,  saepe mollitia illum quidem hic!
+                <span>Providing comprehensive Full Stack development solutions, I specialize in both
                     <br />
-                    quisquam saepe in ab vi. Reiciendis saepe mollitia illum quidem hic!
+                    the frontend and backend, excelling in the following competencies:
                 </span>
 
                 <a href="" download>
@@ -41,19 +41,19 @@ const Services = () => {
                     style={{ left: '14rem' }}>
                     <Card
                         emoji={HeartEmoji}
-                        heading={'Design'}
-                        detail={"Figma, Sketch, Photoshpo,Adobe, Adobe xd "} ></Card>
+                        heading={'Backend'}
+                        detail={"Node.js, Sequelize, Expres.js, SQL & PostgreSQL. "} ></Card>
                 </motion.div>
 
                 <motion.div
-                    initial={{ left: "-11rem",top:"12rem" }}
+                    initial={{ left: "-11rem", top: "12rem" }}
                     whileInView={{ left: "-4rem" }}
                     transition={transition}
                     style={{ top: '12rem', left: '-4rem' }}>
                     <Card
                         emoji={Glasses}
-                        heading={'Developer'}
-                        detail={"HTML, CSS, JavaScriot, React fffffffffff"} ></Card>
+                        heading={'Frontend'}
+                        detail={"HTML, CSS, JavaScriot, React & Redux."} ></Card>
                 </motion.div>
 
                 <motion.div
@@ -63,8 +63,8 @@ const Services = () => {
                     style={{ top: '19rem', left: '12rem' }}>
                     <Card
                         emoji={Humble}
-                        heading={'UI/UX'}
-                        detail={"loerem adadadaekdakvvvvvvvvggggggfd "} ></Card>
+                        heading={'Other Languages'}
+                        detail={"Java, Python & Go "} ></Card>
                 </motion.div>
                 <div className="blur s-blur2" style={{ background: "var(--purple)" }}></div>
             </div>
