@@ -25,9 +25,9 @@ const Services = () => {
                     the frontend and backend, excelling in the following competencies:
                 </span>
 
-                <a href="" download>
+                {/* <a href="" download>
                     <button className="button s-button">Download CV</button>
-                </a>
+                </a> */}
                 <div className="blur s-blur1" style={{ background: "#abf1ff94" }}></div>
             </div>
 
