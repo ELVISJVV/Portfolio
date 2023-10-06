@@ -13,7 +13,7 @@ const Footer = () => {
         <span>elvisvasquez559@gmail.com</span>
         <div className="f-icons">
           {/* <Insta color="white" size={"2rem"} /> */}
-          <a href="https://www.linkedin.com/in/elvis-vásquez-ab9277264" target='_blank'>
+          <a href="https://www.linkedin.com/in/elvis-vasquez-v" target='_blank'>
 
           <Linkedin color="white" size={"2rem"} />
           </a>
