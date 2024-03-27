@@ -6,7 +6,7 @@ import Rickadnmorty from "../../img/rickadnmorty.png"
 import Videogames from "../../img/videogames.png"
 import Biblioteca from "../../img/biblioteca.png"
 import 'swiper/css'
-import Dlujo from "../../img/Dlujo.jpg"
+import Dlujo from "../../img/DLujo.jpg"
 import { themeContext } from '../../Context'
 import { useContext } from 'react'
 
